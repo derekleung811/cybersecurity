@@ -11,8 +11,7 @@ You are assigned a task to crack the NTLM password hashes captured by the intern
 ```
 john --format=NT hashes.txt
 ```
-
-![image](https://github.com/user-attachments/assets/db894d31-ff77-4bad-8d6b-f8163108a128)
+<figure><img width="796" alt="Screenshot 2024-12-08 at 3 47 56 PM" src="https://github.com/user-attachments/assets/02c1d0a0-2dc7-4f3b-9112-8af9fe11c23c"></figure>
 
 **Challenge 2:**
 
@@ -21,6 +20,8 @@ You are assigned a task to crack the NTLM password hashes captured by the intern
 ```
 john --format=NT hashes.txt
 ```
+
+<figure><img width="796" alt="Screenshot 2024-12-08 at 3 47 56 PM" src="https://github.com/user-attachments/assets/25f64832-8d86-435b-b73e-9d43adaa1b1e"></figure>
 
 **Challenge 3:**
 
