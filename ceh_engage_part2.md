@@ -7,9 +7,19 @@ Flags
 
 You are assigned a task to crack the NTLM password hashes captured by the internal security team. The password hash has been stored in the Documents folder of the Parrot Security console machine. What is the password of user James? (Format: aaaaaa)
 
+```
+john --format=NT hashes.txt
+```
+
+![image](https://github.com/user-attachments/assets/db894d31-ff77-4bad-8d6b-f8163108a128)
+
 **Challenge 2:**
 
 You are assigned a task to crack the NTLM password hashes captured by the internal security team. The password hash has been stored in the Documents folder of the Parrot Security console machine. What is the password of user Jones? (Format: NNNNNNNN)
+
+```
+john --format=NT hashes.txt
+```
 
 **Challenge 3:**
 
