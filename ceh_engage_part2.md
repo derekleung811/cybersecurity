@@ -3,6 +3,7 @@
 Part 2 of CEH Skill Check covers System Hacking, Malware Threats, Sniffing, Social Engineering, and Denial-of-Service modules. In this part, you must exploit vulnerabilities identified in the last part and use various network/system/human exploitation techniques to gain access to the target’s systems. You have to perform lateral and vertical privilege escalations and install malicious apps and utilities to maintain access and clear logs to avoid detection. You will need to create and use malicious applications against the target and will also be required to analyze any malware discovered on any of the targets. You need to note all the information discovered in this part of the Skill Check and proceed to the subsequent phases of the ethical hacking cycle in the next part of the Skill Check.
 
 Flags
+
 **Challenge 1:**
 
 You are assigned a task to crack the NTLM password hashes captured by the internal security team. The password hash has been stored in the Documents folder of the Parrot Security console machine. What is the password of user James? (Format: aaaaaa)
