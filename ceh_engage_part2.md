@@ -7,7 +7,7 @@ Flags
 
 You are assigned a task to crack the NTLM password hashes captured by the internal security team. The password hash has been stored in the Documents folder of the Parrot Security console machine. What is the password of user James? (Format: aaaaaa)
 
-<John the Ripper>
+#John the Ripper#
 ```
 john --format=NT hashes.txt
 ```
@@ -26,7 +26,7 @@ john --format=NT hashes.txt
 
 You have been given a task to audit the passwords of a server present in CEHORG network. Find out the password of the user Adam and submit it. (Note: Use Administrator/ CSCPa$$ when asked for credentials). (Format: aaaaaaaaN)
 
-<L0phtCrack>
+#L0phtCrack#
 
 
 **Challenge 4:**
