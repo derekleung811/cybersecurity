@@ -9,9 +9,9 @@ You are performing reconnaissance for CEHORG and has been assigned a task to fin
 Challenge 2:
 Identify if the website www.certifiedhacker.com allows DNS zone transfer. (Yes/No) (Format: Aa)
 
-##
+```
   dig www.certifiedhacker.com axfr
- 
+```
 
 Challenge 3:
 Identify the number of live machines in 172.16.0.0/24 subnet. (Format: N)
