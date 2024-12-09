@@ -52,6 +52,9 @@ The incident response team has intercepted an image file from a communication th
 
 A disgruntled employee in CEHORG has used the Covert_TCP utility to share a secret message with another user in the CEHORG network. Covert_TCP manipulates the TCP/IP header of the data packets to send a file one byte at a time from any host to a destination. It can be used to hide the data inside IP header fields. The employee used the IP ID field to hide the message. The network capture file “Capture.pcapng” has been retained in the “C:\Users\Administrator\Documents” directory of the “EH Workstation – 2” machine. Analyze the session to get the message that was transmitted. (Format: AN*A*AN)
 
+#Wireshark#
+![Screenshot 2024-12-09 at 5 15 23 PM](https://github.com/user-attachments/assets/6080407c-65c8-4d4b-8e17-0882f6e8335d)
+
 **Challenge 7:**
 
 You are a malware analyst working for CEHORG. During your assessment within your organisation's network, you found a malware face.exe. The malware is extracted and placed at C:\Users\Admin\Documents in the EH Workstation – 2 machine. Analyze the malware and find out the File pos for KERNEL32.dll text. (Hint: exclude zeros.) (Format: AANN)
