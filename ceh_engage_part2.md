@@ -38,8 +38,7 @@ An employee in your organization is suspected of sending important information t
 ```
 SNOW.EXE -C Confidential.txt
 ```
-
-<figure>![Screenshot 2024-12-09 at 4 10 24 PM](https://github.com/user-attachments/assets/2116b6c7-0d68-4ff4-a286-acba2897019e)</figure>
+![Screenshot 2024-12-09 at 4 10 24 PM](https://github.com/user-attachments/assets/8d3c783e-f3d2-4b66-9447-1d3ba9f80ebb)
 
 **Challenge 5:**
 
