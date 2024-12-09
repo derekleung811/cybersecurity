@@ -29,12 +29,13 @@ john --format=NT hashes.txt
 You have been given a task to audit the passwords of a server present in CEHORG network. Find out the password of the user Adam and submit it. (Note: Use Administrator/ CSCPa$$ when asked for credentials). (Format: aaaaaaaaN)
 
 #L0phtCrack#
-
+<img width="1025" alt="Screenshot 2024-12-08 at 3 57 27 PM" src="https://github.com/user-attachments/assets/bbcf2ed7-f617-4393-81a6-33c46cb8adaa">
 
 **Challenge 4:**
 
 An employee in your organization is suspected of sending important information to an accomplice outside the organization. The incident response team has intercepted some files from the employee's system that they believe have hidden information. You are asked to investigate a file named Confidential.txt and extract hidden information. Find out the information hidden in the file. Note: The Confidential.txt file is located at C:\Users\Admin\Documents in EH Workstation – 2 machine. (Format: Aaaaa/AaaaaaaNNNNN)
 
+#SNOW#
 ```
 SNOW.EXE -C Confidential.txt
 ```
