@@ -45,6 +45,9 @@ SNOW.EXE -C Confidential.txt
 
 The incident response team has intercepted an image file from a communication that is supposed to have just text. You are asked to investigate the file and check if it contains any hidden information. Find out the information hidden in the file. Note: The vacation.bmp file is located at C:\Users\Admin\Documents in EH Workstation – 2 machine. (Format: AAANNNNNNN)
 
+#OpenStego#
+<img width="655" alt="Screenshot 2024-12-09 at 4 48 20 PM" src="https://github.com/user-attachments/assets/e7ab02bf-6946-43f7-92aa-1c052b408f46">
+
 **Challenge 6:**
 
 A disgruntled employee in CEHORG has used the Covert_TCP utility to share a secret message with another user in the CEHORG network. Covert_TCP manipulates the TCP/IP header of the data packets to send a file one byte at a time from any host to a destination. It can be used to hide the data inside IP header fields. The employee used the IP ID field to hide the message. The network capture file “Capture.pcapng” has been retained in the “C:\Users\Administrator\Documents” directory of the “EH Workstation – 2” machine. Analyze the session to get the message that was transmitted. (Format: AN*A*AN)
