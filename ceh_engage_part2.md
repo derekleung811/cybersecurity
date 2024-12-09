@@ -59,6 +59,9 @@ A disgruntled employee in CEHORG has used the Covert_TCP utility to share a secr
 
 You are a malware analyst working for CEHORG. During your assessment within your organisation's network, you found a malware face.exe. The malware is extracted and placed at C:\Users\Admin\Documents in the EH Workstation – 2 machine. Analyze the malware and find out the File pos for KERNEL32.dll text. (Hint: exclude zeros.) (Format: AANN)
 
+#BinText#
+![Screenshot 2024-12-09 at 5 28 52 PM](https://github.com/user-attachments/assets/6dd981b4-d4ed-45e9-9b07-4190f9bac2cd)
+
 **Challenge 8:**
 
 Analyze an ELF executable (Sample-ELF) file placed at C:\Users\Admin\Documents in the EH Workstation – 2 machines to determine the CPU Architecture it was built for. (Format: AAAAANN)
