@@ -35,6 +35,12 @@ You have been given a task to audit the passwords of a server present in CEHORG 
 
 An employee in your organization is suspected of sending important information to an accomplice outside the organization. The incident response team has intercepted some files from the employee's system that they believe have hidden information. You are asked to investigate a file named Confidential.txt and extract hidden information. Find out the information hidden in the file. Note: The Confidential.txt file is located at C:\Users\Admin\Documents in EH Workstation – 2 machine. (Format: Aaaaa/AaaaaaaNNNNN)
 
+```
+SNOW.EXE -C Confidential.txt
+```
+
+<figure>![Screenshot 2024-12-09 at 4 10 24 PM](https://github.com/user-attachments/assets/2116b6c7-0d68-4ff4-a286-acba2897019e)</figure>
+
 **Challenge 5:**
 
 The incident response team has intercepted an image file from a communication that is supposed to have just text. You are asked to investigate the file and check if it contains any hidden information. Find out the information hidden in the file. Note: The vacation.bmp file is located at C:\Users\Admin\Documents in EH Workstation – 2 machine. (Format: AAANNNNNNN)
