@@ -67,7 +67,7 @@ You are a malware analyst working for CEHORG. During your assessment within your
 Analyze an ELF executable (Sample-ELF) file placed at C:\Users\Admin\Documents in the EH Workstation – 2 machines to determine the CPU Architecture it was built for. (Format: AAAAANN)
 
 #Ghidra#
-<img width="878" alt="Screenshot 2024-12-09 at 5 45 28 PM" src="https://github.com/user-attachments/assets/56ce76ba-cc7d-4ed3-9882-ec0941912e8c">
+<figure><img width="878" alt="Screenshot 2024-12-09 at 5 45 28 PM" src="https://github.com/user-attachments/assets/56ce76ba-cc7d-4ed3-9882-ec0941912e8c"></figure>
 
 
 **Challenge 9:**
