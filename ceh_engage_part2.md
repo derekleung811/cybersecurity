@@ -78,9 +78,22 @@ CEHORG has assigned you with analysing the snapshot of the operating system regi
 
 Perform windows service monitoring and find out the service type associated with display name "afunix". (Format: aaaaaa)
 
+#Module 7 - Windows Service Manager#
+![Screenshot 2024-12-10 at 10 46 06 AM](https://github.com/user-attachments/assets/1c5e6269-ba8e-4858-8e6d-6e5ad11da25d)
+
 **Challenge 11:**
 
 Use Yersinia on the “EH Workstation – 1” (Parrot Security) machine to perform the DHCP starvation attack. Analyze the network traffic generated during the attack and find the Transaction ID of the DHCP Discover packets. (Format: NaNNNaNNNN)
+
+#Module 7 - Yersinia#
+
+```
+Yersinia -I
+```
+![Screenshot 2024-12-10 at 10 51 26 AM](https://github.com/user-attachments/assets/70117736-0c13-4a30-b4c3-7df135f27a9a)
+
+![Screenshot 2024-12-10 at 10 50 46 AM](https://github.com/user-attachments/assets/cc32cc0a-db10-4e51-8516-fa67ec77f820)
+
 
 **Challenge 12:**
 
