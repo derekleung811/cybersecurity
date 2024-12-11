@@ -99,13 +99,29 @@ Yersinia -I
 
 CEHORG suspects a possible sniffing attack on a machine in its network. The organization has retained the network traffic data for the session and stored it in the Documents folder in EH Workstation – 2 (Windows 11) machine as sniffsession.pcap. You have been assigned a task to analyze and find out the protocol used for sniffing on its network. (Format: AAA)
 
+#Module 9 - Wireshark Analyze Expert Information#
+![Screenshot 2024-12-11 at 5 47 43 PM](https://github.com/user-attachments/assets/60ede0bc-2f2d-43d9-a231-a179c77768d4)
+
+
 **Challenge 13:**
 
 As an ethical hacker, you are tasked to analyze the traffic capture file webtraffic.pcapng. Find out the packet's id that uses ICMP protocol to communicate. Note: The webtraffic.pcapng file is located at C:\Users\Administrator\Documents\ in the Documents folder on EH Workstation – 2 (Windows 11) machine. (Format: NaaaNN)
 
+#Wireshark#
+![Screenshot 2024-12-11 at 5 50 14 PM](https://github.com/user-attachments/assets/10ac8fc2-1e59-44ca-8068-f153b2cc80e4)
+
+
 **Challenge 14:**
 
 CEHORG has found that one of its web application movies.cehorg.com running on its network is leaking credentials in plain text. You have been assigned a task of analysing the movies.pcap file and find out the leaked credentials. Note: The movies.pcapng file is located at C:\Users\Administrator\Documents\ in the Documents folder on EH Workstation – 2 (Windows 11) machine. Make a note of the credentials obtained in this flag, it will be used in the Part 3 of CEH Skill Check. (Format: Aaaaa/aaaaaaa)
+
+#Wireshark#
+
+```
+http.request.method=POST
+```
+![Screenshot 2024-12-11 at 6 03 12 PM](https://github.com/user-attachments/assets/5b3e5a33-9be2-46d4-9d45-4367648fccac)
+
 
 **Challenge 15:**
 
