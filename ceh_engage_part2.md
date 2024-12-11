@@ -127,10 +127,20 @@ http.request.method=POST
 
 An attacker has created a custom UDP packet and sent it to one of the machines in the CEHORG. You have been given a task to study the ""CustomUDP.pcapng"" file and find the data size of the UDP packet (in bytes). Note: The CustomUDP.pcapng file is located at C:\Users\Administrator\Documents\ in the Documents folder on EH Workstation – 2 (Windows 11) machine. (Format: NNN)
 
+#Wireshark#
+![Screenshot 2024-12-11 at 6 42 38 PM](https://github.com/user-attachments/assets/5058e76d-fd78-4d81-b13e-461b2ac1eb4c)
+
+
 **Challenge 16:**
 
 A denial-of-service attack has been launched on a target machine in the CEHORG network. A network session file "DoS.pcapng" has been captured and stored in the Documents folder of the EH Workstation - 2 machine. Find the IP address of the attacker's machine. (Format: NNN.NNN.N.NN)
 
+#Wireshark#
+![Screenshot 2024-12-11 at 6 45 00 PM](https://github.com/user-attachments/assets/8a451f02-c007-4931-a5dd-e898f5682395)
+
+
 **Challenge 17:**
 
 CEHORG hosts a datacenter for its bussiness clients. While analyzing the network traffic it was observed that there was a huge surge of incoming traffic from multiple sources. You are given a task to analyze and study the DDoS.pcap file. The captured network session (DDoS.pcapng) is stored in the Documents folder of the EH Workstation -2 machine. Determine the number of machines that were used to initiate the attack. (Format: N)
+
+#Wireshark#
