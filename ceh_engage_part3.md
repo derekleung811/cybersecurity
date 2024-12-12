@@ -8,13 +8,37 @@ Flags
 
 CEHORG suspects of a possible session hijacking attack on a machine in its network. The organisation has retained the network traffic data for the session at C:\Users\Admin\Documents in the EH Workstation – 2 as sniffsession.pcap. You have been assigned a task to perform an analysis and find out the protocol that has been used for sniffing on its network. (Format: AAA)
 
+#Module 11 Session Hijacking - Lab 2 - Wireshark#
+![Screenshot 2024-12-12 at 11 49 56 AM](https://github.com/user-attachments/assets/d1210604-f1dc-4e0d-b089-729266bfc0a6)
+
 **Challenge 2:**
 
 Perform an HTTP-recon on www.certifiedhacker.com and find out the version of Nginx used by the web server. (Format: N.NN.N)
 
+#Module 13 Hacking Web Servers - Lab 1 - httprecon#
+![Screenshot 2024-12-12 at 11 53 33 AM](https://github.com/user-attachments/assets/91dc1966-6db4-4f68-a38b-b722a7b749c8)
+
+
 **Challenge 3:**
 
 An FTP site is hosted on a machine in the CEHORG network. Crack the FTP credentials, obtain the “flag.txt” file and determine the content in the file. (Format: Aaaaaaa*AAA)
+
+#Module Hacking Web Servers - Lab 2 - Hydra#
+
+```
+nmap -p 21 172.16.0.0/24
+
+nmap -p 21 10.10.10.0/24
+
+nmap -p 21 192.168.0.0/24
+```
+
+```
+hydra -L <username.txt> -P <password.txt> ftp://172.16.0.12
+```
+![Screenshot 2024-12-12 at 12 08 57 PM](https://github.com/user-attachments/assets/cdab6979-a6b1-4ec8-863e-314000aa648b)
+
+![Screenshot 2024-12-12 at 12 11 40 PM](https://github.com/user-attachments/assets/98e5919d-cd2a-4632-a20e-17075b4f6b14)
 
 **Challenge 4:**
 
