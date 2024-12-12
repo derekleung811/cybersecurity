@@ -56,9 +56,23 @@ telnet movies.cehorg.com 80
 
 Identify the Content Management System used by www.cehorg.com. (Format: AaaaAaaaa)
 
+#Module 14 Hacking Web Applications - Lab1 - whatweb#
+
+```
+whatweb www.cehorg.com -v
+```
+![Screenshot 2024-12-12 at 2 49 33 PM](https://github.com/user-attachments/assets/b8dd8ae6-6773-4b62-a861-adf297c3056e)
+
 **Challenge 6:**
 
 Perform web application reconnaissance on movies.cehorg.com and find out the HTTP server used by the web application. (Format: Aaaaaaaaa-AAA/NN.N)
+
+#Module 14 Hacking Web Applications - Lab1 - whatweb#
+
+```
+whatweb movies.cehorg.com -v
+```
+![Screenshot 2024-12-12 at 2 52 07 PM](https://github.com/user-attachments/assets/a7ea1d8a-b634-4cae-a2f1-2eb3c6282fc1)
 
 **Challenge 7:**
 
