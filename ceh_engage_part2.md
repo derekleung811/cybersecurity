@@ -28,7 +28,7 @@ john --format=NT hashes.txt
 
 You have been given a task to audit the passwords of a server present in CEHORG network. Find out the password of the user Adam and submit it. (Note: Use Administrator/ CSCPa$$ when asked for credentials). (Format: aaaaaaaaN)
 
-#L0phtCrack#
+#Module 06 System Hacking - Lab 1- L0phtCrack#
 <img width="1025" alt="Screenshot 2024-12-08 at 3 57 27 PM" src="https://github.com/user-attachments/assets/bbcf2ed7-f617-4393-81a6-33c46cb8adaa">
 
 **Challenge 4:**
@@ -45,7 +45,7 @@ SNOW.EXE -C Confidential.txt
 
 The incident response team has intercepted an image file from a communication that is supposed to have just text. You are asked to investigate the file and check if it contains any hidden information. Find out the information hidden in the file. Note: The vacation.bmp file is located at C:\Users\Admin\Documents in EH Workstation – 2 machine. (Format: AAANNNNNNN)
 
-#Module 6 System Hacking - Lab3 -OpenStego#
+#Module 6 System Hacking - Lab3 - OpenStego#
 <figure><img width="655" alt="Screenshot 2024-12-09 at 4 48 20 PM" src="https://github.com/user-attachments/assets/e7ab02bf-6946-43f7-92aa-1c052b408f46"></figure>
 
 **Challenge 6:**
