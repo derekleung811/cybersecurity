@@ -161,6 +161,12 @@ A file named Hash.txt has been uploaded through DVWA (http://10.10.10.25:8080/DV
 
 Perform command injection attack on 10.10.10.25 and find out how many user accounts are registered with the machine. Note: Exclude admin/Guest user (Format: N)
 
+#Module 14 Hacking Web Applications - Lab2 -DVWA#
+
+```
+| net user
+```
+
 **Challenge 15:**
 
 You have identified a vulnerable web application on a Linux server at port 8080. Exploit the web application vulnerability, gain access to the server and enter the content of RootFlag.txt as the answer. (Format: Aa*aaNNNN)
