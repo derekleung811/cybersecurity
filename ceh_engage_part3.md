@@ -98,6 +98,7 @@ Perform a bruteforce attack on www.cehorg.com and find the password of user adam
 ```
 wpscan --url http://cehorg.com/wp-login.php -U ./Usernames.txt -P ./Passwords.txt
 ```
+![Screenshot 2024-12-12 at 4 14 02 PM](https://github.com/user-attachments/assets/89170933-70c0-4c81-950c-70deeffa24be)
 
 
 **Challenge 10:**
@@ -140,9 +141,21 @@ sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="[cookie va
 
 Perform XSS vulnerability test on www.cehorg.com and identify whether the application is vulnerable to attack or not. (Yes/No). (Format: Aa)
 
+#Module 14 Hacking Web Applications - Lab1 - OWASP ZAP#
+![Screenshot 2024-12-12 at 4 16 43 PM](https://github.com/user-attachments/assets/13fcd029-9dc9-48b0-98f4-7a8f9347f3c2)
+
 **Challenge 13:**
 
 A file named Hash.txt has been uploaded through DVWA (http://10.10.10.25:8080/DVWA). The file is located in the directory mentioned below. Access the file and crack the MD5 hash to reveal the original message; enter the content after cracking the hash. You can log into the DVWA using the following credentials. Note: Username- admin; Password- password Path: C:\wamp64\www\DVWA\hackable\uploads\Hash.txt Hint: Use “type” command to view the file. Use the following link to decrypt the hash- https://hashes.com/en/decrypt/hash (Format: Aa*aaNa)
+
+#Module 14 Hacking Web Applications - Lab2 -DVWA#
+
+```
+127.0.0.1 && type C:\wamp64\www\DVWA\hackable\uploads\Hash.txt
+```
+![Screenshot 2024-12-12 at 4 29 20 PM](https://github.com/user-attachments/assets/8fda9f90-2733-4b15-87f6-ca012900ab96)
+![Screenshot 2024-12-12 at 4 30 07 PM](https://github.com/user-attachments/assets/a9ca24db-1833-4bf0-b245-3e41d5681bfe)
+
 
 **Challenge 14:**
 
