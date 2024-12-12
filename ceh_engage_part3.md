@@ -23,7 +23,7 @@ Perform an HTTP-recon on www.certifiedhacker.com and find out the version of Ngi
 
 An FTP site is hosted on a machine in the CEHORG network. Crack the FTP credentials, obtain the “flag.txt” file and determine the content in the file. (Format: Aaaaaaa*AAA)
 
-#Module Hacking Web Servers - Lab 2 - Hydra#
+#Module 13 Hacking Web Servers - Lab 2 - Hydra#
 
 ```
 nmap -p 21 172.16.0.0/24
@@ -43,6 +43,14 @@ hydra -L <username.txt> -P <password.txt> ftp://172.16.0.12
 **Challenge 4:**
 
 Perform Banner grabbing on the web application movies.cehorg.com and find out the ETag of the respective target machine. (Format: "NaNNNNNaaaNaaNN*N")
+
+#Module 14 Hacking Web Applications - Lab 1 - telnet#
+
+```
+telnet movies.cehorg.com 80
+```
+![Screenshot 2024-12-12 at 12 23 44 PM](https://github.com/user-attachments/assets/52183f4e-c8eb-447b-ba62-cdd385f3fd97)
+
 
 **Challenge 5:**
 
